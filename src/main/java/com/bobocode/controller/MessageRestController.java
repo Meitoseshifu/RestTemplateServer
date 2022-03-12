@@ -15,24 +15,24 @@ public class MessageRestController {
     /**
      * save and return Message
      */
-    public Message addMessage(@RequestBody Message message) {
-        return addNewMessage(message);
+    public Message addMessage() {
+        return null;
     }
 
 
     /**
      * print X-Mood header and save message
      * return saved message
-     * @return
+     * @return message
      */
-    public Message addMessage(RequestEntity<Message> messageRequestEntity) {
+    public Message addMessageAndPrintHeader() {
         return null;
     }
 
     /**
      * print to console X-Mood header from RequestEntity, get Message from body and save it
      * return ResponseEntity with status created, location of saved message and Message itself
-     * @return
+     * @return responseEntity
      */
     public ResponseEntity<Message> addMessageWithResponse() {
         return null;
@@ -40,7 +40,7 @@ public class MessageRestController {
 
     /**
      * get message by id
-     * @return
+     * @return message
      */
     public Message getOne() {
         return null;
@@ -48,7 +48,7 @@ public class MessageRestController {
 
     /**
      * this method get all messages from map as a collection
-     * @return
+     * @return messages
      */
     public Collection<Message> getAll() {
         return null;
