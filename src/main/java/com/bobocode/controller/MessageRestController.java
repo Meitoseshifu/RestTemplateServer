@@ -1,9 +1,7 @@
 package com.bobocode.controller;
 
 import com.bobocode.dto.Message;
-import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
